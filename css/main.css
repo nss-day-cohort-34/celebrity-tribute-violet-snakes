@@ -1,0 +1,32 @@
+body {
+    background-color: gold;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 1em;
+}
+
+a {
+    color: red;
+    font-family: 'Special Elite', cursive;
+}
+
+a:hover {
+    color: white;
+}
+
+.socialLinks {
+    position: fixed;
+    bottom: 1em;
+}
+
+.header {
+    font-family: 'Alfa Slab One', cursive;
+    color: red;
+    text-shadow: 4px 6px black; 
+    font-size: 5em;
+    text-align: center;
+}
