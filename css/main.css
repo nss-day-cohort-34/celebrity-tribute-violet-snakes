@@ -12,6 +12,7 @@ body {
 a {
     color: red;
     font-family: 'Special Elite', cursive;
+    text-decoration: none;
 }
 
 a:hover {
@@ -21,6 +22,7 @@ a:hover {
 .socialLinks {
     position: fixed;
     bottom: 1em;
+    text-decoration: none;
 }
 
 .header {
@@ -30,3 +32,4 @@ a:hover {
     font-size: 5em;
     text-align: center;
 }
+

@@ -1,6 +1,35 @@
+.newsCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.eventsCards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 .card {
     background-color: rgb(247, 243, 234);
     font-family: 'Special Elite', cursive;
     box-shadow: 1px 2px 4px rgb(60, 60, 60);
+    max-width: 40%;
+    max-height: 70%;
+    margin: 1em;
 }
 
+.newsImg {
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.newsHead {
+    margin: 1em;
+}
+
+.newsPara {
+    margin: 1em
+}
