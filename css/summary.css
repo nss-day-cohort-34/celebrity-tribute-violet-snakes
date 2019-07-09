@@ -67,10 +67,10 @@ ul {
    
 }
 
-ul.collab {
+.collab {
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly; 
     font-family: 'Special Elite', cursive;
     font-size: 2em; 
 }
