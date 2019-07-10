@@ -27,21 +27,38 @@
     justify-content: center;
 }
 
+.newsEventImg {
+    border-radius: 100%;
+    background-color: red;
+    max-width: 50%;
+    max-height: 50%;
+    margin: 1em 7.5em;
+}
+
 .newsHead {
     margin: 1em;
 }
 
 .newsPara {
-    margin: 1em
+    margin: 1em 
 }
 
 .newsInfo {
+    display: flex;
     margin: 1em;
-    position: relative;
+    text-align: right;
+    justify-content: flex-end;
+    align-content: flex-end;
+
 }
 
 .newsLink {
     margin: 1em;
+    color: red;
+}
+
+.newsLink:hover {
+    color: black;
 }
 
 .header:hover {
@@ -51,10 +68,12 @@
     background-position: center;
 }
 
-.socialMedia {
+.newsSocialMedia {
     display: flex;
     align-items: flex-end;
     justify-content: space-evenly;
-
 }
 
+.newsSocialLinks {
+    margin: 2em;
+}
