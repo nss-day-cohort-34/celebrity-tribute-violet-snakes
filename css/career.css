@@ -38,26 +38,35 @@ a:hover {
     align-content:  center;
     flex-direction: column;
     font-family: 'Special Elite', cursive;
-
+/* Picture in H1 */
 }
 h1 {
     font-size: 5em;
     font-family: 'Alfa Slab One', cursive;
     text-shadow: 2px 2px red;
     text-align: center;
+    margin: 0;
+    padding: none;
 }
-
 .qtIMG {
     display: flex;
     justify-content: center;
-    
+    padding: 6em 0 0 0
 }
 
+/* Summary of Career Styling */
+.qtBlurb {
+    padding: 0 400px 0 40px;
+    margin: 16px 0;
+}
 
-h3 {
+/*  */
+
+h2 {
     display: flex;
     text-align: left;
     font-family: 'Special Elite', cursive;
+    
 }
 
 article {
@@ -75,7 +84,7 @@ ul {
     justify-content: center;
    
 }
-/* li of Published Works */
+/*Pictures of Posters */
 .pubLi {
     position: absolute;
     z-index: 999;
@@ -162,8 +171,8 @@ ul {
 }
 .aArticle {
      list-style-type: none;
-    
-    
+    margin: 16px 0px;
+    padding: 0 0 0 40px;
     font-family: 'Special Elite', cursive;
     font-size: 1em; 
     
