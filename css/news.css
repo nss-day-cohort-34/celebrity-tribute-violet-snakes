@@ -2,6 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    flex-direction: row;
     
 }
 
@@ -32,4 +33,24 @@
 
 .newsPara {
     margin: 1em
+}
+
+.newsInfo {
+    margin: 1em;
+    position: relative;
+}
+
+.newsLink {
+    margin: 1em;
+}
+
+.header:hover {
+    background-image: url("http://www.sclance.com/pngs/sangre-png/sangre_png_1201992.png");
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footerDiv {
+    background-color: black;
 }
