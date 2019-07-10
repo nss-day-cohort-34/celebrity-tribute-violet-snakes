@@ -1,0 +1,152 @@
+body {
+    background-color: gold;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 1em;
+}
+
+a {
+    color: red;
+    font-family: 'Special Elite', cursive;
+}
+
+a:hover {
+    color: white;
+}
+
+.socialLinks {
+    position: fixed;
+    bottom: 1em;
+}
+
+.header {
+    font-family: 'Alfa Slab One', cursive;
+    color: red;
+    text-shadow: 4px 6px black; 
+    font-size: 5em;
+    text-align: center;
+}
+
+.intro {
+    display: flex;
+    align-content:  center;
+    flex-direction: column;
+    font-family: 'Special Elite', cursive;
+
+}
+h1 {
+    font-size: 5em;
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow: 2px 2px red;
+    text-align: center;
+}
+
+h3 {
+    display: flex;
+    text-align: left;
+    font-family: 'Special Elite', cursive;
+}
+
+article {
+    display: flex;
+    font-family: 'Special Elite', cursive;
+}
+
+ul {
+    list-style: none;
+   text-align: left;
+}
+/* UL of Published works */
+.pubLW {
+    display: flex;
+    justify-content: center;
+   
+}
+/* li of Published Works */
+.pubLi {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    
+}
+/* Picture sizes for poster */
+
+.pulpFicIMG{
+    width: 200px;
+    height: 300px;
+}
+
+.djUnIMG{
+    width: 200px;
+    height: 300px;
+}
+
+.inBaIMG{
+    width: 200px;
+    height: 300px;
+}
+.kiBiIMG{
+    width: 200px;
+    height: 300px;
+
+}
+.revDogIMG {
+    width: 200px;
+    height: 300px;
+}
+
+/* Awards List Layout */
+
+.awardText {
+    display: flex;
+   justify-items: flex-start;
+}
+
+.awardsList {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+/* Picture Sizes for Award Logo */
+.oscars {
+    width: 200px;
+    height: 200px;
+
+}
+
+.bafta {
+    width: 200px;
+    height: 200px;
+}
+
+.gg {
+    width: 200px;
+    height: 200px;
+}
+.saturn {
+    width: 200px;
+    height: 200px;
+}
+
+.cannes {
+    width: 200px;
+    height: 200px;
+}
+
+.awardsList{
+    display: flex;
+    
+
+  
+}
+
+h3 {
+
+}
