@@ -23,7 +23,7 @@ a:hover {
     display: flex;
     align-items: flex-end;
     justify-content: space-evenly
-    
+      
 }
 
 
@@ -67,6 +67,11 @@ ul {
    
 }
 
+.portraitPic {
+    max-width: 400px;
+    max-height: 600px;
+}
+
 .collab {
     list-style-type: none;
     display: flex;
@@ -82,3 +87,7 @@ ul {
    
 }
 
+.Pics {
+    max-width: 150px;
+    max-height: 300px;
+}
