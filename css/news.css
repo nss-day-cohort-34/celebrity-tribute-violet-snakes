@@ -1,15 +1,45 @@
+body {
+    background-color: gold;
+}
+
+.newsNavbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 1em;
+}
+
+a {
+    color: red;
+    font-family: 'Special Elite', cursive;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.newsHeader {
+    font-family: 'Alfa Slab One', cursive;
+    color: red;
+    text-shadow: 4px 6px black; 
+    font-size: 5em;
+    text-align: center;
+}
+
 .newsCards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     flex-direction: row;
-    
+    font-size: 15px;
 }
 
 .eventsCards {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    font-size: 15px;
 }
 .card {
     background-color: rgb(247, 243, 234);
@@ -42,13 +72,16 @@
 .newsEventImg:hover {
     filter: grayscale(0%);
 }
+
 .newsHead {
     margin: 1em;
+    font-size: 25px;
+
 }
 
 .newsPara {
     margin: 1em;
-    min-height: 13em;
+    min-height: 10em;
 }
 
 .newsInfo {
@@ -63,6 +96,7 @@
 .newsLink {
     margin: 1em;
     color: red;
+    font-size: 15px;
 }
 
 .newsLink:hover {
@@ -73,6 +107,8 @@
     display: flex;
     justify-content: flex-end;
     margin: 1em;
+    color: red;
+    font-size: 15px;
 }
 
 .newsEventLink:hover {
