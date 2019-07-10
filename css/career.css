@@ -2,6 +2,8 @@ body {
     background-color: gold;
 }
 
+
+
 .navbar {
     display: flex;
     justify-content: space-around;
@@ -44,6 +46,13 @@ h1 {
     text-shadow: 2px 2px red;
     text-align: center;
 }
+
+.qtIMG {
+    display: flex;
+    justify-content: center;
+    
+}
+
 
 h3 {
     display: flex;
@@ -146,15 +155,23 @@ ul {
 .awardsList{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    justify-items: center;
-    padding-top: 20px;
-
+    justify-content: flex-start;
+    justify-items: flex-start;
+    padding: 20px 0 0 40px;
+    
 }
 .aArticle {
      list-style-type: none;
-    display: flex;
-    justify-content: space-evenly; 
+    
+    
     font-family: 'Special Elite', cursive;
     font-size: 1em; 
+    
+}
+
+.newSocialLinks {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly
+    
 }
