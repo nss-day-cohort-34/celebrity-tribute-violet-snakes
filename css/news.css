@@ -51,6 +51,10 @@
     background-position: center;
 }
 
-.footerDiv {
-    background-color: black;
+.socialMedia {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+
 }
+
