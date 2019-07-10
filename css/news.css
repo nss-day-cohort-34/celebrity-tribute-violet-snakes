@@ -1,0 +1,60 @@
+.newsCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    
+}
+
+.eventsCards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: rgb(247, 243, 234);
+    font-family: 'Special Elite', cursive;
+    box-shadow: 1px 2px 4px rgb(60, 60, 60);
+    max-width: 40%;
+    max-height: 70%;
+    margin: 1em;
+}
+
+.newsImg {
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.newsHead {
+    margin: 1em;
+}
+
+.newsPara {
+    margin: 1em
+}
+
+.newsInfo {
+    margin: 1em;
+    position: relative;
+}
+
+.newsLink {
+    margin: 1em;
+}
+
+.header:hover {
+    background-image: url("http://www.sclance.com/pngs/sangre-png/sangre_png_1201992.png");
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.socialMedia {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+
+}
+
