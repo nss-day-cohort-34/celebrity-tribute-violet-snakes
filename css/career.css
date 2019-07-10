@@ -75,6 +75,8 @@ ul {
     right: 0;
     
 }
+
+
 /* Picture sizes for poster */
 
 .pulpFicIMG{
@@ -115,38 +117,44 @@ ul {
 }
 
 /* Picture Sizes for Award Logo */
-.oscars {
+.awardIMG {
     width: 200px;
     height: 200px;
 
 }
 
-.bafta {
+.awardIMG {
     width: 200px;
     height: 200px;
 }
 
-.gg {
+.awardIMG {
     width: 200px;
     height: 200px;
 }
-.saturn {
-    width: 200px;
-    height: 200px;
-}
-
-.cannes {
+.awardIMG {
     width: 200px;
     height: 200px;
 }
 
+.awardIMG{
+    width: 200px;
+    height: 200px;
+}
+
+/* Awards Content  */
 .awardsList{
     display: flex;
-    
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 20px;
 
-  
 }
-
-h3 {
-
+.aArticle {
+     list-style-type: none;
+    display: flex;
+    justify-content: space-evenly; 
+    font-family: 'Special Elite', cursive;
+    font-size: 1em; 
 }
