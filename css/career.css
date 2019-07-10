@@ -98,27 +98,27 @@ ul {
 /* Picture sizes for poster */
 
 .pulpFicIMG{
-    width: 200px;
-    height: 300px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 .djUnIMG{
-    width: 200px;
-    height: 300px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 .inBaIMG{
-    width: 200px;
-    height: 300px;
+    max-width: 200px;
+    max-height: 200px;
 }
 .kiBiIMG{
-    width: 200px;
-    height: 300px;
+    max-width: 200px;
+    max-height: 200px;
 
 }
 .revDogIMG {
-    width: 200px;
-    height: 300px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 /* Awards List Layout */
@@ -136,28 +136,28 @@ ul {
 
 /* Picture Sizes for Award Logo */
 .awardIMG {
-    width: 200px;
-    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
 
 }
 
 .awardIMG {
-    width: 200px;
-    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 .awardIMG {
-    width: 200px;
-    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
 }
 .awardIMG {
-    width: 200px;
-    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 .awardIMG{
-    width: 200px;
-    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 /* Awards Content  */
